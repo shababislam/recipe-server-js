@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Menu order form</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<!--grabbing the code from html_script.js-->
+	<script type = "text/javascript" src="html_script.js"></script>
+
+</head>
+<body onload="loadElements();">
+	<h1>Choose recipe:</h1>
+	<form id=mainForm>
+	
+			<label for="orderSelect">Order:</label>
+			<select name="recipeName" id="orderSelect">
+			
+			</select>
+		
+		<button type="button" onclick="loadRecipe();" id="button1">View Recipe</button><br>
+	</form>
+	
+	<!--input area for all the recipe stuff and button to magically appear-->
+	<p id='inputArea'>
+	
+	</p>
+</body>
+</html>

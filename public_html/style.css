@@ -1,0 +1,44 @@
+html{
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	font-family: sans-serif;
+}
+body{
+	background-color: #488baf;
+}
+
+h1{
+	color:2px #000;
+}
+
+form{
+	background-color:#395b6d;
+	padding: 10px;
+}
+
+#inputArea{
+	color:#395b6d;
+}
+
+#button1{
+	border: none;
+	background-color: #233a47;
+	color: #3d6377;
+	cursor: pointer;
+}
+#button1:hover{
+	background-color:#3d6377;
+	color: #739fb7;
+}
+
+#submitButtonID{
+	border: none;
+	background-color: #000;
+	color: gray;
+	cursor: pointer;
+}
+#submitButtonID:hover{
+	background-color:gray;
+	color: black;
+}
